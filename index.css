@@ -1,0 +1,31 @@
+* {
+  font-family: "Cairo", sans-serif;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 40vh;
+  background-color: white;
+  padding: 3vh;
+  border-radius: 15px;
+  text-align: center;
+}
+.card > h4 {
+  font-weight: 700;
+  font-size: 140%;
+  color: hsl(218, 44%, 22%);
+}
+.card > p {
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+.card > img {
+  border-radius: 5px;
+}
